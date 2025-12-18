@@ -48,3 +48,4 @@ Dự án này xây dựng một ALU (Arithmetic Logic Unit) 32-bit bằng System
 - `set /p OUTNAME=Enter output executable name (without .out):` bước này yêu cầu bạn nhập tên file đầu ra và script tự động thêm phần mở rộng `.out`. Nếu bỏ trống, script dừng lại và nhắc lại để tránh sinh file vô danh.
 - `choice /C YN /M "Do you want to generate VCD waveform?"` cho phép lựa chọn có/không trước khi chạy `vvp`. Lựa chọn `Y` đưa luồng chạy sang nhánh `RUN_VCD` (sử dụng logic ghi sóng tại testbench), còn `N` giữ luồng chạy nhánh `RUN_NO_VCD` khi không muốn tạo file VCD.
 
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/a17260ae-10b6-46f1-a3ef-992a5fafadd7" />
