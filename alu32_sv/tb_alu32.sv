@@ -27,6 +27,10 @@ module tb_alu32;
   endtask
 
   initial begin
+    // Waveform dump (VCD)
+    $dumpfile("tb_alu32.vcd");
+    $dumpvars(0, tb_alu32);
+
     // ADD
     a = 10; b = 20; op = ALU_ADD; #1;
     check(30);
@@ -56,7 +60,7 @@ module tb_alu32;
       a = $random;
       b = $random;
       op_raw = $random % 9;
-      op = alu_op_t'(op_raw);  // ⭐ FIX QUAN TRỌNG
+      op = alu_op_t'(op_raw);
       #1;
     end
 
