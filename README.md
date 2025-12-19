@@ -42,6 +42,7 @@ Dự án này xây dựng một ALU (Arithmetic Logic Unit) 32-bit bằng System
 
 ## Tác giả & liên hệ
 - Trịnh Quang Trung
+- NguMinh
 - Ngày cập nhật: 19/12/2025
 
 ### Tính năng tương tác trong run.bat
